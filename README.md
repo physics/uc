@@ -1,6 +1,10 @@
 # uc
 CLI for calcurse updates.
 
+
+Has only been tested on Arch Linux, should work for most Linux distributions.
+Windows will not work, not sure about macOS.
+
 # Usage
 `uc "mm/dd/yyyy" "mm/dd/yyyy" "Wash the dishes at 3:00 PM."`
 
