@@ -2,7 +2,8 @@
 CLI for calcurse updates.
 
 # Usage
-`uc "mm/dd/yyyy" "mm/dd/yyyy" "Wash the dishes at 3:00 PM."
+`uc "mm/dd/yyyy" "mm/dd/yyyy" "Wash the dishes at 3:00 PM."`
+
 This will add washing the dishes to the Appointments category of `calcurse` for every date in between (inclusive) the first two dates you provide as arguments.
 
 # Prerequisites
