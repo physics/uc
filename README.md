@@ -11,7 +11,7 @@ This will add washing the dishes to the Appointments category of `calcurse` for 
 `git`
 
 # Installation
-1. `git clone https://github.com/physics/uc.git"`
+1. `git clone https://github.com/physics/uc.git`
 2. `cd uc`
 3. `g++ uc.cpp -o uc`
 4. `sudo cp uc /usr/bin/`
