@@ -60,7 +60,10 @@ string dateToString (Date a) {
 
 int main (int argc, char** argv) {
   ofstream apts;
-  apts.open("/home/daniel/.local/share/calcurse/apts");
+  char username[32];
+  cuserid(username);
+  string user(username);
+  apts.open("/home/" + user + "/.local/share/calcurse/apts");
   string date[2] = {argv[1], argv[2]};
   int month[2] = {stoi(date[0].substr(0, 2)), stoi(date[1].substr(0, 2))};
   int day[2] = {stoi(date[0].substr(3, 2)), stoi(date[1].substr(3, 2))};
